@@ -8,7 +8,7 @@
     "emitDecoratorMetadata": true,
     "strict": true,
     "outDir": "./dist", 
-    "types": ["node", "fastify"],  // Ensure "fastify" is included
+    "types": ["node", "fastify"],
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
