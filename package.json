@@ -14,7 +14,8 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "lint": "eslint . --ext .ts --fix",
-    "prettier": "prettier --write src/**/*.ts"
+    "prettier": "prettier --write src/**/*.ts",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "dependencies": {
     "@fastify/multipart": "^6.0.1",
